@@ -11,5 +11,19 @@
         <li>curry</li>
         <li>ice cream</li>
     </ul>
+    <button type="button" class="ctr_btn">change_color</button>
+    <script>
+        const my_btn = document.querySelector(".ctr_btn");
+        let btn_cnt = 0;
+
+        my_btn.addEventListener("click",function(){
+            if(btn_cnt % 2 === 0){
+                document.body.style.background = "lightblue";
+            }else{
+                document.body.style.background = "white";
+            }
+            btn_cnt++;
+        });
+    </script>
 </body>
 </html>
