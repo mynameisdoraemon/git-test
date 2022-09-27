@@ -1,3 +1,8 @@
 p{
     color: blue;
 }
+
+li{
+    border-bottom: 1px solid blue;
+    width:250px;
+}
