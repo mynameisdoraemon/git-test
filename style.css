@@ -6,3 +6,18 @@ li{
     border-bottom: 1px solid blue;
     width:250px;
 }
+
+button{
+    background-color:lightcoral;
+    color:black;
+    border-radius: 5px;
+    border:none;
+    padding:5px 10px;
+    opacity: 0.5;
+    cursor: pointer;
+    
+}
+
+button:hover{
+    opacity: 1;
+}
