@@ -8,14 +8,19 @@ li{
 }
 
 button{
-    background-color:lightcoral;
     color:black;
     border-radius: 5px;
     border:none;
     padding:5px 10px;
     opacity: 0.5;
     cursor: pointer;
-    
+}
+
+.ctr_btn1{
+    background-color:blue;
+}
+.ctr_btn2{
+    background-color:red;
 }
 
 button:hover{
